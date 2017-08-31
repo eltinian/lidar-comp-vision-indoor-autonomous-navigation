@@ -1,0 +1,7 @@
+<library path="lib/libautobot">
+  <class name="autobot/ZEDWrapperNodelet"
+	 type="autobot::ZEDWrapperNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>This is the nodelet of ROS interface for Stereolabs ZED Camera.</description>
+  </class>
+</library>

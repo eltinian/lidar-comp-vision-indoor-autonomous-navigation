@@ -1,0 +1,26 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.13",
+    "creation time": "2017-07-30 16:27:02.678098",
+    "dataset_id": "20170730-162359-7ba6",
+    "deploy file": "deploy.prototxt",
+    "digits version": "5.0.0",
+    "framework": "caffe",
+    "id": "20170730-162702-45e9",
+    "image dimensions": [
+        224,
+        224,
+        3
+    ],
+    "image resize mode": "squash",
+    "job id": "20170730-162702-45e9",
+    "labels file": "labels.txt",
+    "mean file": "mean.binaryproto",
+    "model file": "original.prototxt",
+    "name": "Angle_Classification3",
+    "snapshot file": "snapshot_iter_18540.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Done",
+    "train_val file": "train_val.prototxt",
+    "username": "eltinian"
+}

@@ -1,0 +1,2 @@
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="00:1e:c2:ff:ba:f3", ATTR{dev_id}=="0x0", ATTR{type}=="1", NAME="tpspot0"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="00:0e:c6:c7:fe:5d", ATTR{dev_id}=="0x0", ATTR{type}=="1", NAME="hokuyo0"

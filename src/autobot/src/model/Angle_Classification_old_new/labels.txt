@@ -1,0 +1,9 @@
+Left 15
+Left 30
+Left 45
+Left 60
+Right 15
+Right 30
+Right 45
+Right 60
+Straight 0

@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="obj_classifier" pkg="autobot" type="obj_classifier" args=" --model /media/ubuntu/SSD/jetson-inference/data/networks/GoogleNet-ILSVRC12-subset/snapshot_iter_184080.caffemodel --prototxt /media/ubuntu/SSD/jetson-inference/data/networks/GoogleNet-ILSVRC12-subset/deploy.prototxt --labels /media/ubuntu/SSD/jetson-inference/data/networks/GoogleNet-ILSVRC12-subset/labels.txt --output_blob softmax" output="screen" />
+
+</launch>

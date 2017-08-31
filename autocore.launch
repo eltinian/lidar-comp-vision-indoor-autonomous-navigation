@@ -1,0 +1,9 @@
+<launch>
+    <node name="motorControl" pkg="autobot" type="motorControl.py"/>
+    <node name="pidControl" pkg="autobot" type="pidControl.py"/>
+    <node name="teensyESC" pkg="rosserial_python" type="serial_node.py"
+    args="/dev/ttyACM0"/>
+    <node name="udp_remote" pkg="autobot" type="udpRemote.py" />
+    <node name="lidar_scan" pkg="urg_node" type="urg_node" args="_ip_address:=192.168.13.15"/>
+    <node name="pathfinder" pkg="autobot" type="pathFinder.py" />
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="obj_classifier" pkg="autobot" type="obj_classifier" args="
+    --model
+    /media/ubuntu/SSD/trained_models/classify-t1/snapshot_iter_125160.caffemodel
+    --prototxt /media/ubuntu/SSD/trained_models/classify-t1/deploy.prototxt
+    --labels /media/ubuntu/SSD/trained_models/classify-t1/labels.txt --output_blob softmax" output="screen" />
+
+</launch>

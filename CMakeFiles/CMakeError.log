@@ -1,0 +1,99 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5a78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5a78.dir/build.make CMakeFiles/cmTC_c5a78.dir/build
+make[1]: Entering directory '/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5a78.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_c5a78.dir/CheckSymbolExists.cxx.o -c /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_c5a78.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c5a78.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c5a78.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c5a78/fast' failed
+make: *** [cmTC_c5a78/fast] Error 2
+
+File /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7b59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7b59.dir/build.make CMakeFiles/cmTC_a7b59.dir/build
+make[1]: Entering directory '/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7b59.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_a7b59.dir/CheckSymbolExists.cxx.o -c /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_a7b59.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a7b59.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a7b59.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7b59/fast' failed
+make: *** [cmTC_a7b59/fast] Error 2
+
+File /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ecf1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ecf1.dir/build.make CMakeFiles/cmTC_6ecf1.dir/build
+make[1]: Entering directory '/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ecf1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_6ecf1.dir/CheckSymbolExists.cxx.o -c /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_6ecf1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6ecf1.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6ecf1.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6ecf1/fast' failed
+make: *** [cmTC_6ecf1/fast] Error 2
+
+File /media/ubuntu/SSD/masters-bot-zed/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

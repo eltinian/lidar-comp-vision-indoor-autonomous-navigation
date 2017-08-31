@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find autobot)/launch/zed_camera_autobot.launch"/>
+    <include file="$(find autobot)/launch/obj_detect_display.launch"/>
+    <include file="$(find autobot)/launch/obj_classify_test_display.launch"/>
+    <node name="navigation" pkg="autobot" type="navigator.py"/>
+</launch>

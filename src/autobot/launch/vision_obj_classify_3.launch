@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="vision_classify" pkg="autobot" type="vision_classify" args=" --model /media/ubuntu/SSD/masters-bot-zed/src/autobot/src/model/Angle_Classification_old_new/snapshot_iter_18540.caffemodel --prototxt /media/ubuntu/SSD/masters-bot-zed/src/autobot/src/model/Angle_Classification_old_new/deploy.prototxt --labels /media/ubuntu/SSD/masters-bot-zed/src/autobot/src/model/Angle_Classification_old_new/labels.txt --output_blob softmax" output="screen" />
+
+</launch>

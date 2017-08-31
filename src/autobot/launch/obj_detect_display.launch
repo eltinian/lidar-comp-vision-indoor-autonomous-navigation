@@ -1,0 +1,3 @@
+<launch>
+    <node name="obj_detector" pkg="autobot" type="obj_detector" args="--DISPLAY --model /media/ubuntu/SSD/trained_models/detectNet-select2/snapshot_iter_17534.caffemodel --prototxt /media/ubuntu/SSD/trained_models/detectNet-select2/deploy.prototxt" output="screen" />
+</launch>

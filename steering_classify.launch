@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find autobot)/launch/autobot_vision_detect_3.launch"/>
+    <include file="$(find autobot)/launch/vision_obj_classify_3.launch"/>
+</launch>
